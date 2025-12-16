@@ -684,7 +684,7 @@ var_imp_df|>
 
 ggsave(filename = "var_imp_modelos.png", height = 10, width = 12)
 
-'## Curvas de resposta ----
+## Curvas de resposta ----
 
 var_curva_modelos <- function(x, y){
 
