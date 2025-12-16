@@ -194,9 +194,9 @@ registro_paulodutrai_sf <- registro_paulodutrai |>
   terra::vect()
 
 sdm_data_paulodutrai <- sdm::sdmData(sp ~ .,
-                         train = registro_paulodutrai_sf,
-                         predictors = bio_paulodutrai,
-                         bg = list(method = "gRandom", n = 1000))
+                                     train = registro_paulodutrai_sf,
+                                     predictors = bio_paulodutrai,
+                                     bg = list(method = "gRandom", n = 1000))
 
 sdm_data_paulodutrai
 
