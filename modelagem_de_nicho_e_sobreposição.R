@@ -262,7 +262,7 @@ ggplot() +
 
 ## Pristimantis ramagii ----
 
-### Trtando as variáveis ambientais ----
+### Tratando as variáveis ambientais ----
 
 nomes_var <- tabela_ramagii |> names() |> stringr::str_remove(" ")
 
