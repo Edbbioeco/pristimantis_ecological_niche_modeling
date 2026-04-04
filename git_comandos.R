@@ -13,12 +13,12 @@ gert::git_status() |>
 
 # Selecionando o arquivo ----
 
-gert::git_add(list.files(pattern = c("pratica_interpolação_extrapolacao.R"))) |>
+gert::git_add(files = "git_comandos.R") |>
   as.data.frame()
 
 # Commitando ----
 
-gert::git_commit("Script para a atividade de modelagfem de nicho ecológico")
+gert::git_commit("Script para os comandos de git")
 
 # Pushando ----
 
@@ -39,7 +39,7 @@ gert::git_reset_soft("HEAD^")
 
 ## Selecionando os arquivos para remover ----
 
-gert::git_rm(list.files(pattern = ".tif$|.png$|.jpeg$|.shp$|.dbf$|.shx$|.prj$|.txt$|DRIVERS|.csv$")) |>
+gert::git_rm(list.files(pattern = ".tif$|.png$|.jpeg$|.shp$|.dbf$|.shx$|.prj$|.txt$|.csv$|.xlsx$")) |>
   as.data.frame()
 
 ## Commitando ----
