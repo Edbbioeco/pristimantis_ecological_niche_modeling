@@ -1,0 +1,13 @@
+write(c("*.png",
+        "*.csv",
+        "*.xlsx",
+        "*.shp",
+        "*.shx",
+        "*.dbf",
+        "*.prj",
+        "*.docx",
+        "*.bib",
+        "*.jpeg",
+        "*.kmz"),
+      file = ".gitignore",
+      append = TRUE)
