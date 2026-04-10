@@ -8,6 +8,7 @@ write(c("*.png",
         "*.docx",
         "*.bib",
         "*.jpeg",
-        "*.kmz"),
+        "*.kmz",
+        "*.tif"),
       file = ".gitignore",
       append = TRUE)
